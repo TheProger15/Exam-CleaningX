@@ -189,3 +189,34 @@ a{
 	align-items: center;
 	gap: 100px;
 }
+.section-3{
+	padding: 0px 100px;
+	width: 1240px;
+	height: 672px;
+}
+.s3-head{
+	width: 1240px;
+	height: 130px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.s3-cards{
+	width: 1240px;
+	height: 494px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.s3-card{
+	width: 388px;
+	height: 494px;
+	border-radius: 16px;
+	border: 1px solid #EFF0F6;
+	box-shadow: 0px 2px 6px #14142B0A;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: space-around;
+	text-align: center;
+}
