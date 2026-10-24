@@ -9,6 +9,18 @@ body, a, h1, h2, h3, h4, h5, h6, p{
 h1, h2, h3, h4, h5, h6{
 	color: #211F54;
 }
+h1{
+	font-size: 68px;
+	font-weight: 700;
+}
+h2{
+	font-size: 48px;
+	font-weight: 700;
+}
+h3{
+	font-size: 28px;
+	font-weight: 700;
+}
 p{
 	color: #6E7191;
 	font-size: 21px;
@@ -115,4 +127,65 @@ a{
 .s1-right{
 	width: 720px;
 	height: 734px;
+}
+.section-2{
+	padding: 0px 100px;
+	width: 1240px;
+	height: 718px;
+}
+.s2-txt{
+	text-align: center;
+}
+.s2-buttons{
+	widows: 1240px;
+	height: 73px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	align-items: center;
+}
+.blue-button{
+	width: 217px;
+	height: 72px;
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+	background-color: #0075FF;
+	border-radius: 14px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.blue-button:hover{
+	opacity: 85%;
+	cursor: pointer;
+}
+.white-button{
+	width: 217px;
+	height: 72px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #211F54;
+	background-color: white;
+	border-radius: 14px;
+	border: 1px solid #EFF0F6;
+	box-shadow: 0px 4px 10px #14142B0A;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+}
+.white-button:hover{
+	cursor: pointer;
+	color: white;
+	background-color: #0075FF;
+}
+.for-table{
+	width: 415px;
+	margin: 20px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
 }
