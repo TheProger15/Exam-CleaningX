@@ -263,7 +263,9 @@ u{
 }
 .s4-right{
     width: 500px;
-    padding-right: 50px;}
+    height: 500px;
+    padding-right: 50px;
+}
 .s4-right h2{
     color: white;
     font-size: 38px;
